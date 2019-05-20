@@ -62,6 +62,7 @@ function App () {
           <li> Aby skorzystać w edytorze z funkcji Name wpisz Name(podaj id waluty np.btc-bitcoin)</li>
           <li> Aby skorzystać w edytorze z funkcji Price wpisz Price(podaj id waluty np.btc-bitcoin)</li>
           <li> W obecnej aplikacji nie zdążyłem zrobić zabezpieczenia na max 10 req</li>
+          <li> Dla funkcji Price można by użyć memoizacji oraz dla obu debounce</li>
         </ol>
         <textarea value={text}
                   onChange={(e) => {setText(e.target.value)}}></textarea>
